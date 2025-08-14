@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>Soraix Team — ITエリートチーム</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111827" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2216%22 fill=%22%23111827%22/><text x=%2250%22 y=%2258%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2256%22 fill=%22white%22>S</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind-config.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+  <meta name="description" content="Soraixは小さく強いITエリートチーム。クラウドとiOSに強みを持ち、エンジニアの情熱でプロダクトを作り込みます。">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 border-b bg-white/80 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="./" class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gray-900 text-white grid place-items-center font-bold">Sx</div>
+        <span class="font-semibold">Soraix Team</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-gray-700">私たちについて</a>
+        <a href="#expertise" class="hover:text-gray-700">得意領域</a>
+        <a href="#projects" class="hover:text-gray-700">プロジェクト</a>
+        <a href="#team" class="hover:text-gray-700">メンバー</a>
+        <a href="#contact" class="hover:text-gray-700">お問い合わせ</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="index-en.html" class="text-sm underline">EN</a>
+        <button id="openJoin" class="px-4 py-2 text-sm rounded-xl bg-gray-900 text-white">連絡</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-gray-100 to-transparent"></div>
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 relative">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+            私たちは <span class="text-gray-700">Soraix</span><br/> クラウドとiOSに強い <span class="underline">ITエリートチーム</span>
+          </h1>
+          <p class="mt-5 text-gray-600">
+            AWS/Azureで堅牢なバックエンドとモダンなフロントエンドを構築。iOSのプロトタイピングにも挑戦しています。
+            さらに、<span class="font-medium">自転車チーム</span>も運営し、スピードと持久力をエンジニア視点で楽しんでいます。
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="https://ride.soraix.cc" class="px-5 py-3 rounded-2xl bg-gray-900 text-white font-medium">自転車サイトへ</a>
+            <a href="#projects" class="px-5 py-3 rounded-2xl border font-medium">プロジェクトを見る</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-3xl p-6 border shadow-sm">
+          <div class="grid grid-cols-3 gap-3 md:gap-4">
+            <div class="aspect-square rounded-2xl bg-gray-100"></div>
+            <div class="aspect-square rounded-2xl bg-gray-200"></div>
+            <div class="aspect-square rounded-2xl bg-gray-100"></div>
+            <div class="aspect-square rounded-2xl bg-gray-200"></div>
+            <div class="aspect-square rounded-2xl bg-gray-100"></div>
+            <div class="aspect-square rounded-2xl bg-gray-200"></div>
+          </div>
+          <p class="text-xs text-gray-500 mt-3">ダミー画像：チーム・プロダクト・ライド写真に差し替え可能。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">私たちについて</h2>
+    <p class="mt-3 text-gray-600 leading-relaxed">
+      SoraixはCEO <strong>KOU</strong> を中心とした4名のチームです。クラウド基盤、Web・モバイル開発、オートメーション、データ基盤に強みがあります。
+      小さなチームでも、集中した技術スタック・自動化されたデリバリー・ユーザー体験へのこだわりで大きな成果を生み出せると信じています。
+    </p>
+  </section>
+
+  <!-- Expertise -->
+  <section id="expertise" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">得意領域</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">クラウド & バックエンド</h3>
+        <p class="text-gray-600 mt-2 text-sm">AWS（EC2/S3/CloudFront/Lambda/RDS）、Azure、API設計、認証、ログ。</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">フロントエンド & iOS</h3>
+        <p class="text-gray-600 mt-2 text-sm">モダンWeb（Tailwind/React）、iOSプロトタイプ、パフォーマンス、UX。</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">データ & 自動化</h3>
+        <p class="text-gray-600 mt-2 text-sm">CI/CD（GitHub Actions）、可観測性、Denodo/Cloudera、スクリプト。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">プロジェクト</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Soraix Cycling</h3>
+        <p class="text-gray-600 mt-2 text-sm">ルート・獲得標高・週末ロングライドの記録。EC2 + Nginxで公開中。</p>
+        <a class="mt-3 inline-block text-sm underline" href="https://ride.soraix.cc">ride.soraix.cc を開く</a>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">iOSプロダクト（コードネーム：Skylink）</h3>
+        <p class="text-gray-600 mt-2 text-sm">「生産性 × アクティビティ記録」をテーマに、アカウント・同期・軽量な管理画面（app.soraix.cc）を計画中。</p>
+        <span class="mt-3 inline-block text-xs text-gray-500">進捗：プロトタイピング</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">メンバー</h2>
+    <div class="mt-6 grid md:grid-cols-4 gap-6">
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">KOU</h3>
+        <p class="text-gray-500 text-sm">CEO / プロダクトリード</p>
+        <p class="text-gray-600 text-sm mt-2">プロダクト全体を統括。Power Platformとクラウド自動化に情熱。</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Gaku</h3>
+        <p class="text-gray-500 text-sm">CTO / リードクラウドアーキテクト</p>
+        <p class="text-gray-600 text-sm mt-2">アーキテクチャとAWS戦略を牽引。信頼性・コスト・可観測性を重視。</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Ember</h3>
+        <p class="text-gray-500 text-sm">プロダクトマネージャー</p>
+        <p class="text-gray-600 text-sm mt-2">ロードマップ、ユーザーインサイト、デリバリーのリズムを推進。</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Echo</h3>
+        <p class="text-gray-500 text-sm">技術アドバイザー</p>
+        <p class="text-gray-600 text-sm mt-2">アーキテクチャ判断、スケール設計、ベストプラクティスを助言。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">お問い合わせ</h2>
+    <p class="mt-3 text-gray-600">Email：<a class="underline" href="mailto:soraix2025@gmail.com">soraix2025@gmail.com</a></p>
+    <div class="mt-4">
+      <button id="openJoin2" class="px-5 py-3 rounded-2xl bg-gray-900 text-white font-medium">メッセージを送る</button>
+    </div>
+  </section>
+
+  <footer class="border-t">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-500">
+      © <span id="year"></span> Soraix Team. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Join / Contact Modal (Formspree) -->
+  <div id="joinModal" class="hidden">
+  <div class="fixed inset-0 bg-black/50" data-backdrop></div>
+    <div class="fixed inset-0 p-4 grid place-items-center">
+  <form id="joinForm" action="https://formspree.io/f/xzzvwdeq" method="POST"
+    class="modal-card w-full max-w-md bg-white rounded-2xl p-6 shadow-xl relative">
+        <button type="button" id="closeModal" class="absolute right-3 top-2 text-2xl leading-none">&times;</button>
+        <h2 class="text-xl font-semibold mb-4">メッセージ</h2>
+        <label for="name" class="text-sm">お名前</label>
+        <input type="text" id="name" name="name" required class="mt-1 mb-3 w-full border rounded-xl px-3 py-2">
+        <label for="email" class="text-sm">メール</label>
+        <input type="email" id="email" name="email" required class="mt-1 mb-3 w-full border rounded-xl px-3 py-2">
+        <label for="message" class="text-sm">メッセージ</label>
+        <textarea id="message" name="message" rows="4" required class="mt-1 mb-4 w-full border rounded-xl px-3 py-2"></textarea>
+    <button type="submit" class="w-full px-4 py-2 rounded-xl bg-gray-900 text-white" id="submitBtn">送信</button>
+        <div id="formSuccess" class="hidden text-green-600 text-sm mt-3">ありがとうございます。送信されました。</div>
+      </form>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Soraix Team — IT Elite Team</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111827" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2216%22 fill=%22%23111827%22/><text x=%2250%22 y=%2258%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2256%22 fill=%22white%22>S</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind-config.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+  <meta name="description" content="Soraix is a compact IT elite team. We ship reliable cloud backends and iOS prototypes with a strong focus on user experience.">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 border-b bg-white/80 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="./index-en.html" class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gray-900 text-white grid place-items-center font-bold">Sx</div>
+        <span class="font-semibold">Soraix Team</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-gray-700">About</a>
+        <a href="#expertise" class="hover:text-gray-700">Expertise</a>
+        <a href="#projects" class="hover:text-gray-700">Projects</a>
+        <a href="#team" class="hover:text-gray-700">Team</a>
+        <a href="#contact" class="hover:text-gray-700">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="index.html" class="text-sm underline">日本語</a>
+        <button id="openJoin" class="px-4 py-2 text-sm rounded-xl bg-gray-900 text-white">Send a message</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-gray-100 to-transparent"></div>
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 relative">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+            We are <span class="text-gray-700">Soraix</span><br/> a small <span class="underline">IT elite team</span> shipping cloud & iOS
+          </h1>
+          <p class="mt-5 text-gray-600">
+            We build reliable backends on AWS/Azure and modern frontends, while exploring iOS product ideas.
+            We also run a <span class="font-medium">cycling team</span>—engineers who love speed and endurance.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="https://ride.soraix.cc" class="px-5 py-3 rounded-2xl bg-gray-900 text-white font-medium">Visit Cycling Site</a>
+            <a href="#projects" class="px-5 py-3 rounded-2xl border font-medium">See Projects</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-3xl p-6 border shadow-sm">
+          <div class="grid grid-cols-3 gap-3 md:gap-4">
+            <div class="aspect-square rounded-2xl bg-gray-100"></div>
+            <div class="aspect-square rounded-2xl bg-gray-200"></div>
+            <div class="aspect-square rounded-2xl bg-gray-100"></div>
+            <div class="aspect-square rounded-2xl bg-gray-200"></div>
+            <div class="aspect-square rounded-2xl bg-gray-100"></div>
+            <div class="aspect-square rounded-2xl bg-gray-200"></div>
+          </div>
+          <p class="text-xs text-gray-500 mt-3">Placeholders—replace with team, product, and cycling photos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">About Soraix</h2>
+    <p class="mt-3 text-gray-600 leading-relaxed">
+      Led by CEO <strong>KOU</strong>, Soraix is a 4-person team experienced in cloud infrastructure, web & mobile development,
+      automation, and data platforms. We believe small teams can create outsized impact through a focused stack,
+      automated delivery, and a relentless care for user experience.
+    </p>
+  </section>
+
+  <!-- Expertise -->
+  <section id="expertise" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">Expertise</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Cloud & Backend</h3>
+        <p class="text-gray-600 mt-2 text-sm">AWS (EC2/S3/CloudFront/Lambda/RDS), Azure, API design, auth, logging.</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Frontend & iOS</h3>
+        <p class="text-gray-600 mt-2 text-sm">Modern web (Tailwind/React), iOS prototyping, performance, UX.</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Data & Automation</h3>
+        <p class="text-gray-600 mt-2 text-sm">CI/CD (GitHub Actions), observability, Denodo/Cloudera, scripting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">Projects</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Soraix Cycling</h3>
+        <p class="text-gray-600 mt-2 text-sm">Routes, elevation, races, and weekend rides. Deployed on EC2 + Nginx.</p>
+        <a class="mt-3 inline-block text-sm underline" href="https://ride.soraix.cc">Open ride.soraix.cc</a>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">iOS Product (codename: Skylink)</h3>
+        <p class="text-gray-600 mt-2 text-sm">An iOS idea around productivity × activity tracking; accounts, sync, and a lightweight admin (app.soraix.cc).</p>
+        <span class="mt-3 inline-block text-xs text-gray-500">Status: prototyping</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">Core Team</h2>
+    <div class="mt-6 grid md:grid-cols-4 gap-6">
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">KOU</h3>
+        <p class="text-gray-500 text-sm">CEO & Product Lead</p>
+        <p class="text-gray-600 text-sm mt-2">Owns product direction and quality. Passionate about Power Platform and cloud automation.</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Gaku</h3>
+        <p class="text-gray-500 text-sm">CTO & Lead Cloud Architect</p>
+        <p class="text-gray-600 text-sm mt-2">Leads architecture and AWS strategy with a focus on reliability, cost, and observability.</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Ember</h3>
+        <p class="text-gray-500 text-sm">Product Manager</p>
+        <p class="text-gray-600 text-sm mt-2">Drives roadmap, user insights, and delivery rhythm across teams.</p>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border shadow-sm">
+        <h3 class="font-semibold">Echo</h3>
+        <p class="text-gray-500 text-sm">Technical Advisor</p>
+        <p class="text-gray-600 text-sm mt-2">Advises on architecture decisions, scaling patterns, and best practices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold">Contact</h2>
+    <p class="mt-3 text-gray-600">Email: <a class="underline" href="mailto:soraix2025@gmail.com">soraix2025@gmail.com</a></p>
+    <div class="mt-4">
+      <button id="openJoin2" class="px-5 py-3 rounded-2xl bg-gray-900 text-white font-medium">Send a message</button>
+    </div>
+  </section>
+
+  <footer class="border-t">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-500">
+      © <span id="year"></span> Soraix Team. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Join / Contact Modal (Formspree) -->
+  <div id="joinModal" class="hidden">
+  <div class="fixed inset-0 bg-black/50" data-backdrop></div>
+    <div class="fixed inset-0 p-4 grid place-items-center">
+  <form id="joinForm" action="https://formspree.io/f/xzzvwdeq" method="POST"
+    class="modal-card w-full max-w-md bg-white rounded-2xl p-6 shadow-xl relative">
+        <button type="button" id="closeModal" class="absolute right-3 top-2 text-2xl leading-none">&times;</button>
+        <h2 class="text-xl font-semibold mb-4">Leave a message</h2>
+        <label for="name" class="text-sm">Name</label>
+        <input type="text" id="name" name="name" required class="mt-1 mb-3 w-full border rounded-xl px-3 py-2">
+        <label for="email" class="text-sm">Email</label>
+        <input type="email" id="email" name="email" required class="mt-1 mb-3 w-full border rounded-xl px-3 py-2">
+        <label for="message" class="text-sm">Message</label>
+        <textarea id="message" name="message" rows="4" required class="mt-1 mb-4 w-full border rounded-xl px-3 py-2"></textarea>
+    <button type="submit" class="w-full px-4 py-2 rounded-xl bg-gray-900 text-white" id="submitBtn">Submit</button>
+        <div id="formSuccess" class="hidden text-green-600 text-sm mt-3">Thank you! Your message has been sent.</div>
+      </form>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

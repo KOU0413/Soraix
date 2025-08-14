@@ -1,0 +1,12 @@
+/* Global small tweaks */
+html, body { height: 100%; }
+
+/* Modal base: hidden via Tailwind .hidden; we only add behaviors here */
+#joinModal[aria-hidden="false"] .modal-card { transform: scale(1); opacity: 1; }
+#joinModal[aria-hidden="true"] .modal-card { transform: scale(0.98); opacity: 0; }
+
+/* Transition helper for modal card */
+.modal-card { transition: transform 150ms ease, opacity 150ms ease; }
+
+/* Disable button while submitting */
+button[disabled] { opacity: 0.6; cursor: not-allowed; }
